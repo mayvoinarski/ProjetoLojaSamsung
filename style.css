@@ -1,6 +1,11 @@
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100vh;
+    min-width: 100vh;
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
     display: flex;
@@ -9,10 +14,9 @@ body {
     align-items: center;
 }
 
-.container {
-    width: 100%;
+.c1 {
+    width: 110%;
     height: auto;
-    margin: 0 auto; 
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -66,48 +70,300 @@ header {
     opacity: 1;
 }
 
+.barra {
+    width: 100%;
+    margin-top: 7.6%;
+    border: none;
+    border-top: 5px solid black;    
+}
+
+.titulo1{
+    font-size: 30px;
+    margin-left: 3%;
+    margin-top: 5%;
+    font-family:  Apple Chancery, cursive;
+    display: flex;
+    float: left;
+}
+.logo{
+    margin-left: 80%;
+    margin-top: -2%;
+}
+.card1 {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 600px;
+    height: 320px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+    transition: box-shadow 0.3s ease; 
+    float: left;
+    margin-bottom: 5%; 
+}
+ 
+#fotos {
+    margin-left: 0%;
+    margin-right: 0px;
+    float: left;
+    display: flex;
+    margin-bottom: 0;
+}
+
+#fotos1 {
+    margin-left: 5%;
+    margin-right: 70px;
+    float: left;
+    display: flex;
+    margin-top: -18px;
+}
+
+#fotos2 {
+    margin-left: -10%;
+    margin-right: -22px;
+    float: left;
+    display: flex;
+    margin-top: -15px;
+    zoom: 130%;
+}
+
+#fotos3 {
+    margin-left: -12%;
+    margin-right: -8%;
+    float: left;
+    display: flex;
+    margin-top: -25px;
+    zoom: 140%;
+} 
+
+#fotos4 {
+    margin-left: -10%;
+    margin-right: -4%;
+    float: left;
+    display: flex;
+    margin-bottom: 0;
+    zoom: 110%;
+}
+
+#fotos5 {
+    margin-left: -8%;
+    margin-right: -7%;
+    float: left;
+    display: flex;
+    margin-top: -10px;
+    zoom: 130%;
+}
+
+#fotos6 {
+    margin-left: 0%;
+    margin-right: 50px;
+    float: left;
+    display: flex;
+    margin-bottom: 0;
+}
+
+#fotoflip {
+    margin-left: -30px;
+    margin-right: -40px;
+    float: left;
+    display: flex;
+    margin-top: -15px;
+    zoom: 130%;
+}
+
+.card-details {
+    color: black;
+    height: 100%;
+    place-content: center;
+}
+
+.text-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+.text-body {
+    color: rgb(134, 134, 134);
+    display: flex;
+    font-size: 12px;
+}
+   
+.card2 {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 600px;
+    height: 320px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    padding: 20px;
+    float: left;
+    margin-bottom: 5%;
+    border: 2px solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+    transition: box-shadow 0.3s ease; 
+}
+
+.card3 , .card4 , .card5 , .card6 , .card7 , .card8 {
+    margin-left: 5%;
+    margin-top: 0;
+    width: 600px;
+    height: 320px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+    transition: box-shadow 0.3s ease; 
+    float: left;
+    margin-bottom: 5%;
+}
+
+.square-button {
+    width: 100px; 
+    height: 20px; 
+    background-color: #f5f5f5; 
+    border: 2px solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+    transition: box-shadow 0.3s ease; 
+    float: left;
+    border-radius: 5px;
+    margin-top: 4%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+  
+.square-button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.square-button1 {
+    width: 100px; 
+    height: 30px; 
+    background-color: #f5f5f5; 
+    border: 2px solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+    transition: box-shadow 0.3s ease; 
+    float: left;
+    border-radius: 5px;
+    margin-top: 4%;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.square-button1:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.square-button2 {
+    width: 100px; 
+    height: 20px; 
+    background-color: #f5f5f5; 
+    border: 2px solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+    transition: box-shadow 0.3s ease; 
+    float: left;
+    border-radius: 5px;
+    margin-top: 6%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.square-button2:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+
+.boximg{ 
+    width: 1320px;
+    height: 450px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+    transition: box-shadow 0.3s ease; 
+    float: left;
+    margin-bottom: 5%; 
+    margin-left: 5%;
+    display: flex;
+}
+
+.kskimg{
+    margin-top: -5px;
+    border-radius: 20px;
+    padding: 0px;
+}
+.pngend{ 
+    margin-left: 5%;
+    margin-top: 3%;
+    float: left;
+}
+
+.infos{
+    margin-left: 2%;
+    margin-top: 3.5%;
+    float: left;
+}
+
 footer {
     background-color: black;
     color: #fff;
-    padding: 30px;
-    text-align: justify;
-    margin: 0;
-    width:100%;
-    position: absolute;
-    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+    position: absolute bottom;
+    bottom: 0px;
+    min-width: 98.5%;
+    margin-top: auto;
+    display: flex;
 }
 
-.wppimg{
+.wppimg {
     float: left;
-    margin-left: 35%;
+    margin-left: 38%;
     margin-top: 0px;
 }
 
-.wpp{
+.wpp {
     color: #f0f0f0;
     float: left;
     margin-left: 5px;
     margin-top: 2px; 
 }
 
-.instimg{
+.instimg {
     float: left;
     margin-left: 30px;
 }
 
-.instagram{
+.instagram {
     color: #f0f0f0;
     float: left;
     margin-left: 10px;
     margin-top: 2px;
 }
 
-.locimg{
+.locimg {
     float: left;
     margin-left: 30px;
 }
 
-.localizacao{
+.localizacao {
     color: #f0f0f0;
     float: left;
     margin-left: 5px;
@@ -116,14 +372,6 @@ footer {
 
 }
 
-a:link {
-    text-decoration:none;
-}
-    
-a:visited {
-    text-decoration:none;
-}
-
-a:hover {
+a:link, a:visited, a:hover {
     text-decoration:none;
 }
